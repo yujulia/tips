@@ -14,6 +14,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var tipLabel: UILabel!
     @IBOutlet weak var totalLabel: UILabel!
     @IBOutlet weak var tipControl: UISegmentedControl!
+    @IBOutlet weak var tipView: UIView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,6 +27,10 @@ class ViewController: UIViewController {
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
+    }
+    
+    override func viewWillAppear(animated: Bool) {
+        tipView.center.x -= view.bounds.width
     }
     
     @IBAction func onEditingChanged(sender: AnyObject) {

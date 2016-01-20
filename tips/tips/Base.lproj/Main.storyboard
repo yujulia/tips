@@ -110,6 +110,7 @@
                         <outlet property="billField" destination="rEK-K4-eOY" id="pv0-9h-5E8"/>
                         <outlet property="tipControl" destination="nXl-TF-dc6" id="vVi-Qv-iBM"/>
                         <outlet property="tipLabel" destination="Zb0-c3-Lpn" id="LN7-yV-ood"/>
+                        <outlet property="tipView" destination="33x-N8-xiW" id="RId-lX-SiQ"/>
                         <outlet property="totalLabel" destination="elp-Tn-0HJ" id="43M-Kj-BSj"/>
                     </connections>
                 </viewController>
