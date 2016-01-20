@@ -1,6 +1,8 @@
 Submitted by: Julia Yu
 
-Time spent: 2 hours spent in total
+![tips demo](tips.gif)
+
+Time spent: 10 hours spent in total
 
 ## User Stories
 
@@ -9,12 +11,16 @@ The following **required** functionality is complete:
 
 The following **optional** features are implemented:
 * [x] Custom font
-* [ ] UI animations
+* [x] UI animations
 * [x] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
 
 The following **additional** features are implemented:
 
-- [ ] List anything else that you can get done to improve the app functionality!
+- [x] List anything else that you can get done to improve the app functionality!
+* added app icons
+* added clear thingy in text field
+* hide tip/total on clear
+* clear tip and total on reselecting input
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
