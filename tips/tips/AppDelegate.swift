@@ -3,7 +3,7 @@
 //  tips
 //
 //  Created by Julia Yu on 1/19/16.
-//  Copyright © 2016 Julia Yu. All rights reserved.
+//  Copyright © 2016 julia yu. All rights reserved.
 //
 
 import UIKit
