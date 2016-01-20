@@ -17,20 +17,23 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         tipLabel.text = "$0.00"
         totalLabel.text = "$0.00"
+        
+        billField.becomeFirstResponder()
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
-
+    
     @IBAction func onEditingChanged(sender: AnyObject) {
         let tipPercent = [0.18, 0.2, 0.22]
         let bill = NSString(string: billField.text!).doubleValue
         let tip = bill * tipPercent[tipControl.selectedSegmentIndex]
         let total = tip + bill
-        
+    
         tipLabel.text = String(format: "$%.2f", tip)
         totalLabel.text = String(format: "$%.2f", total)
     }
